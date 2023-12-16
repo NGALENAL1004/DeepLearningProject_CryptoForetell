@@ -1,0 +1,10 @@
+matplotlib
+pandas==1.1.0
+requests
+seaborn
+numpy
+scikit-learn
+keras==2.15.0
+pandas-datareader
+streamlit
+tensorflow==2.15.0
