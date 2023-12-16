@@ -1,5 +1,5 @@
 matplotlib
-pandas==1.1.0
+pandas
 requests
 seaborn
 numpy
