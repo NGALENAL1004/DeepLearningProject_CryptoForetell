@@ -134,8 +134,8 @@ df_testing_array = scaler.fit_transform(df_testing)
 x_test = []
 y_test = []
 for i in range(10, df_testing_array.shape[0]):
-  x_test.append(df_training_array[i-10 : i ])
-  y_test.append(df_training_array[i, 0])
+  x_test.append(df_testing_array[i-10 : i ])
+  y_test.append(df_testing_array[i, 0])
 x_test, y_test = np.array(x_test), np.array(y_test)
 
 ###Prédictions pour x_test
