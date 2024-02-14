@@ -20,6 +20,18 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+st.markdown(
+    """
+    <style>
+    .signature {
+        font-family: 'Bodoni MT Black', serif;
+        font-size: 15px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 ### Titre de l'application
 st.title("🪙CryptoForetell🪙: Predicting the value of cryptocurrencies")
 
@@ -28,8 +40,13 @@ today = dt.date.today()
 ## Initialisation de la date d'hier
 yesterday = dt.date.today() - dt.timedelta(days=1)
 
+### Titre de l'application
+st.sidebar.title("🪙CryptoForetell🪙")
+
 ### Spécification des paramètres de l'action
 st.sidebar.header("Select cryptocurrency")
+
+st.sidebar.markdown("Simply select the cryptocurrency of your choice and specify the start and end dates for analysis. You will then receive clear visualizations of past closing prices, moving averages, as well as predictions for the days ahead.")
 
 ## Choix de la cryptomonnaie
 # Récupération des données de cryptomonaies via le csv
@@ -57,6 +74,8 @@ end_timestamp = int(dt.datetime.strptime(str(end_date), '%Y-%m-%d').timestamp())
 difference = end_date - start_date
 # Récupération du nombre de jours à partir de la différence
 limit = difference.days
+
+st.sidebar.markdown('<p>Developed by <span class="signature">AlMiDEV</span></p>', unsafe_allow_html=True)
 
 
 ### Récupération des données
