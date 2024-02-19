@@ -31,7 +31,7 @@ The project is organized as follows:
 
 1. Clone this GitHub repository to your local machine:
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/REPO_NAME.git
+   git clone https://github.com/NGALENAL1004/DeepLearningProject_CryptoForetell.git
 2. Install the required dependencies by running the following command: pip install -r requirements.txt
 3. Run the application using the following command in the project directory: streamlit run app.py
 4. The application will launch in your default web browser.
@@ -75,7 +75,7 @@ Le projet est organisé de la manière suivante :
 
 1. Clonez ce dépôt GitHub sur votre machine locale :
    ```bash
-   git clone https://github.com/VOTRE_UTILISATEUR_GITHUB/NOM_DU_REPO.git
+   git clone https://github.com/NGALENAL1004/DeepLearningProject_CryptoForetell.git
 2. Installez les dépendances requises en exécutant la commande suivante : "pip install -r requirements.txt"
 3. Exécutez l'application en utilisant la commande suivante dans le dossier du projet: "streamlit run app.py"
 4. L'application se lancera dans votre navigateur par défaut.
